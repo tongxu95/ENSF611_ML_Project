@@ -15,36 +15,44 @@ Tasks:
 3. What: Dataset, models, framework, components 2pts
 
 ### Example 1
-1. Why: Question being investigated 2pt
+1. Why: Question being investigated 2pt  
+
 I would like to understand better how the decision tree algorithm works.
 
 2. How: Plan of attack 2pt
+
 In *insert reference here* a guide to implement decision trees from scratch is available. I will download the code, run with the tutorial dataset (very small) and then apply it to a real dataset (see below) and compare to scikit-learn. Furthermore, I will try and implement early stopping by introducting `max_depth` parameter. This is not part of the tutorial code and an extension.
 
 3. What: Dataset, models, framework, components 2pts
+
 - UCI dataset *insert url here* (13 features, 300 samples)
 - Code from *insert code github url*
 - Scikit-learn DecisionTreeClassifier
 
 ### Example 2
 1. Why: Question being investigated 2pt
+
 I would like to see what it takes to participate in a Kaggle machine learning competition.
 
 2. How: Plan of attack 2pt
+
 I have created an account on Kaggle and they recommend starting with the Titanic classification problem. I will follow these guidlines to prepare a notebook and submit it. I will use the Lab3 notebook as a template.
 
 If time premits, a second competition will be selected and prepared.
 
 3. What: Dataset, models, framework, components 2pts
+
 - Kaggle competition url *insert url*
 - Scikit-learn classifiers: LogisticRegression, RandomForest, GradientBoosting, SVC
 - Possibility to explore XGBoost library as an alternate classifier.
 
 ### Example 3
 1. Why: Question being investigated 2pt
+
 I am interested in learning more about putting a model into production.
 
 2. How: Plan of attack 2pt
+
 Initial research showed, that mlflow *insert url* is a framework that allows for training and deploying machine learning models. On their website *insert url here* there are numerous tutorials. I am planning to follow the following:
 - Tutorial 1 *add description*
 - Tutorial 2 *add description*
@@ -52,6 +60,7 @@ Initial research showed, that mlflow *insert url* is a framework that allows for
 Subsequently, I will adapt the tutorial code to create a website that allows entering Iris flower sepal and petal measurements, and the classifier displays the predicted type of Iris flower. To demonstrate this pipeline, only one classifier will be trained.
 
 3. What: Dataset, models, framework, components 2pts
+
 - mlflow *url here* with submodules *module 1* *module 2*
 - mlflow to serve the model as a RESTapi
 - Scikit-learn Iris dataset
