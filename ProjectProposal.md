@@ -1,4 +1,4 @@
-# Project proposal for *YOUR PROJECT TITEL*
+# Project proposal for *Compete in 2016 Kaggle Competition for Rental Listing Inquiries*
 Author: Tong Xu
 
 ## 1. Why: Question/Topic being investigated 2pts
