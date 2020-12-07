@@ -15,7 +15,7 @@ Here is where you include:
   
   RESULTS
   
-  I chose lightgbm as the machine learning model because this was the model used by the Calgary DataScience Academy in their workbooks, which I referenced for my project. LightGBM is also popularly used in Kaggle competitions and has faster performance compared to xgboost.
+  I chose lightgbm as the machine learning model because this was the model used by the Calgary DataScience Academy in their workbooks, which I referenced for my project. Gradient boosting framework is greater for multi-class classification problems. LightGBM is popularly used in Kaggle competitions and has faster performance compared to xgboost.
   
   I started with a baseline model, which was trained with the default parameters for lightGBM and used only the numerical features in the original data set. This resulted in a log loss of 0.65189 for the validation set. The log loss was reduced to 0.56295 with feature engineering and further reduced to 0.55878 with hyperparameter tuning. Finally, the model achieved a log loss of 0.56065 of the test dataset, which I obtained by submitting my prediction to the competition.
   
